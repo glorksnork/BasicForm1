@@ -1,0 +1,10 @@
+C:\Users\phill\source\repos\Aug30\Aug30\bin\Debug\Aug30.exe.config
+C:\Users\phill\source\repos\Aug30\Aug30\bin\Debug\Aug30.exe
+C:\Users\phill\source\repos\Aug30\Aug30\bin\Debug\Aug30.pdb
+C:\Users\phill\source\repos\Aug30\Aug30\obj\Debug\Aug30.csprojAssemblyReference.cache
+C:\Users\phill\source\repos\Aug30\Aug30\obj\Debug\Aug30.Form1.resources
+C:\Users\phill\source\repos\Aug30\Aug30\obj\Debug\Aug30.Properties.Resources.resources
+C:\Users\phill\source\repos\Aug30\Aug30\obj\Debug\Aug30.csproj.GenerateResource.cache
+C:\Users\phill\source\repos\Aug30\Aug30\obj\Debug\Aug30.csproj.CoreCompileInputs.cache
+C:\Users\phill\source\repos\Aug30\Aug30\obj\Debug\Aug30.exe
+C:\Users\phill\source\repos\Aug30\Aug30\obj\Debug\Aug30.pdb
