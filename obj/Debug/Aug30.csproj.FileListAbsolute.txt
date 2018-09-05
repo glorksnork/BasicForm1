@@ -8,3 +8,6 @@ C:\Users\phill\source\repos\Aug30\Aug30\obj\Debug\Aug30.csproj.GenerateResource.
 C:\Users\phill\source\repos\Aug30\Aug30\obj\Debug\Aug30.csproj.CoreCompileInputs.cache
 C:\Users\phill\source\repos\Aug30\Aug30\obj\Debug\Aug30.exe
 C:\Users\phill\source\repos\Aug30\Aug30\obj\Debug\Aug30.pdb
+F:\Aug30\Aug30\bin\Debug\Aug30.exe.config
+F:\Aug30\Aug30\obj\Debug\Aug30.exe
+F:\Aug30\Aug30\obj\Debug\Aug30.pdb

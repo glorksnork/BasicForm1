@@ -19,29 +19,38 @@ namespace Aug30
 
         private void btnCalc_Click(object sender, EventArgs e)
         {
-            if (TryParseFromTextBox(tbxHours, out double hours) &&
-                TryParseFromTextBox(tbxPay, out double pay))
+            double hours = Double.Parse(tbxHours.Text);
+            double pay = Double.Parse(tbxPay.Text);
+
+            if (Double.TryParse(tbxPay.Text, out pay))
             {
                 double result = hours * pay;
-                //MessageBox.Show($" total amount is {result} ", "Click Event",
-                //   MessageBoxButtons.OKCancel, MessageBoxIcon.Information);
-
-                lblOutput.Text = $"Your gross is {result}";
+                MessageBox.Show($" total amount is {result} ", "Click Event",
+                MessageBoxButtons.OKCancel, MessageBoxIcon.Information);
 
             }
-        }
-
-        public bool TryParseFromTextBox(TextBox control, out double value)
-        {
-            if (!double.TryParse(control.Text, out value))
+            else
             {
-                MessageBox.Show($"You must enter a number in {control.Name}", "Input Error",
-                                MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show($"You must enter a number", "Input Error",
+            MessageBoxButtons.OK, MessageBoxIcon.Error);
 
-                control.Clear();
-                return false;
+                tbxPay.Clear();
+                lblOutput.Text = $"Your gross is {result}";
             }
-            return true;
+
+
+            if (Double.TryParse(tbxHours.Text, out hours))
+            {
+                double result = hours * pay;
+            }
+            else
+            {
+                MessageBox.Show($"You must enter a number", "Input Error",
+            MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+                tbxHours.Clear();
+
+            }
         }
 
         private void btnClear_Click(object sender, EventArgs e)
